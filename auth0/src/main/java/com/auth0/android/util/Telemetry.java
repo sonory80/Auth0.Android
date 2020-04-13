@@ -1,16 +1,13 @@
 package com.auth0.android.util;
 
-import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
 import android.util.Base64;
-
+import androidx.annotation.VisibleForTesting;
 import com.google.gson.Gson;
-
 import java.nio.charset.Charset;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
 
 public class Telemetry {
     public static final String HEADER_NAME = "Auth0-Client";

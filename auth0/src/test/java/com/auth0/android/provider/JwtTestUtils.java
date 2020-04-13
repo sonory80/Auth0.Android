@@ -1,8 +1,7 @@
 package com.auth0.android.provider;
 
-import android.support.annotation.NonNull;
 import android.util.Base64;
-
+import androidx.annotation.NonNull;
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;

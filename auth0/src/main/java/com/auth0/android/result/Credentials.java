@@ -24,12 +24,9 @@
 
 package com.auth0.android.result;
 
-
-import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
-
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
 import com.google.gson.annotations.SerializedName;
-
 import java.util.Date;
 
 /**
